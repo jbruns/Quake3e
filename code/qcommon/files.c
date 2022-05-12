@@ -4753,8 +4753,9 @@ static void FS_Startup( void ) {
 	fs_gamedirvar->modified = qfalse; // We just loaded, it's not modified
 
 	// check original q3a files
-	if ( !Q_stricmp( fs_basegame->string, BASEGAME ) || !Q_stricmp( fs_basegame->string, BASEDEMO ) )
-		FS_CheckIdPaks();
+	// ...but not for me!
+	// if ( !Q_stricmp( fs_basegame->string, BASEGAME ) || !Q_stricmp( fs_basegame->string, BASEDEMO ) )
+	// 	FS_CheckIdPaks();
 
 #ifdef FS_MISSING
 	if (missingFiles == NULL) {
