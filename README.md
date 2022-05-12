@@ -1,9 +1,10 @@
 # Quake3e
 
-[![build](../../workflows/build/badge.svg)](../../actions?query=workflow%3Abuild) * <a href="https://discord.com/invite/X3Exs4C"><img src="https://img.shields.io/discord/314456230649135105?color=7289da&logo=discord&logoColor=white" alt="Discord server" /></a>
-
 This is a modern Quake III Arena engine aimed to be fast, secure and compatible with all existing Q3A mods.
 It is based on last non-SDL source dump of [ioquake3](https://github.com/ioquake/ioq3) with latest upstream fixes applied.
+
+*This particular fork attempts to maintain compatibility with Windows 98 (+KernelEx). Some very minor changes were required to get it to build
+on Visual Studio 2005.*
 
 Go to [Releases](../../releases) section to download latest binaries for your platform or follow [Build Instructions](#build-instructions)
 
